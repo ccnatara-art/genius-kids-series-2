@@ -1,0 +1,8 @@
+:root{
+  --cream:#FFF9F1;--purple:#7057D9;--purple-dark:#5941C0;--coral:#FF8068;
+  --yellow:#FFD166;--mint:#69D6B1;--blue:#72B9F5;--navy:#29334D;
+  --muted:#778097;--line:#EEEAF5;--white:#FFFFFF;--surface:#FFFFFF;
+  --shadow:0 12px 32px rgba(41,51,77,.08);--shadow-sm:0 5px 16px rgba(41,51,77,.07);
+  --radius-lg:24px;--radius-md:18px;--radius-sm:12px;
+  --font: "Nunito", "Trebuchet MS", system-ui, -apple-system, sans-serif;
+}

@@ -1,0 +1,15 @@
+.app-shell{max-width:1120px;min-height:100vh;margin:0 auto;padding:0 24px;display:flex;flex-direction:column}
+.topbar{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(112,87,217,.10)}
+.brand{display:inline-flex;align-items:center;gap:10px;font-size:20px;font-weight:800;letter-spacing:-.04em}
+.brand b{color:var(--purple)}
+.brand-mark{width:34px;height:34px;display:grid;place-items:center;border-radius:12px;background:var(--yellow);color:#9B6A00;font-size:20px;box-shadow:0 4px 0 #E7B94D}
+.topbar-actions{display:flex;align-items:center;gap:12px}
+.star-pill{display:flex;align-items:center;gap:7px;padding:9px 14px;background:#FFF0C8;border:1px solid #F8D98D;border-radius:99px;font-weight:800}
+.icon-button{width:42px;height:42px;border:0;border-radius:14px;background:#fff;color:var(--navy);font-size:20px;box-shadow:var(--shadow-sm)}
+.main-content{flex:1;padding:28px 0 44px;outline:none}
+.app-footer{padding:18px 0 24px;display:flex;justify-content:space-between;gap:12px;color:#9AA1B1;font-size:12px}
+.page{animation:fade-up .3s ease both}
+.page-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:22px}
+.page-heading h1{margin-bottom:6px;font-size:clamp(26px,4vw,36px)}
+.page-heading p{margin:0;color:var(--muted)}
+.panel{background:var(--white);border:1px solid rgba(112,87,217,.08);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm)}

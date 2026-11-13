@@ -1,0 +1,17 @@
+@media(max-width:760px){
+  .app-shell{padding:0 16px}.topbar{height:66px}.main-content{padding:20px 0 32px}
+  .welcome-grid{grid-template-columns:1fr}.hero-banner{min-height:210px;padding:22px}.hero-mascot{right:12px;font-size:112px;opacity:.9}
+  .stats-card{gap:14px}.world-card{grid-template-columns:52px 1fr auto;padding:15px;gap:12px}
+  .world-icon{width:50px;height:50px;border-radius:16px;font-size:26px}
+  .world-list::before{left:40px}.mission-chips{grid-column:1 / -1;margin-top:4px}
+}
+@media(max-width:520px){
+  .app-shell{padding:0 12px}.brand{font-size:17px}.star-pill{padding:8px 10px}
+  .app-footer{font-size:10px}.page-heading{align-items:flex-start;flex-direction:column}
+  .hero-banner{min-height:225px}.hero-copy{max-width:72%}.hero-copy h1{font-size:30px}
+  .hero-mascot{font-size:92px;right:4px;bottom:18px}
+  .age-grid{grid-template-columns:1fr}.age-card{display:flex;align-items:center;text-align:left;gap:14px;padding:14px}
+  .age-card .age-emoji{font-size:34px;width:44px}
+  .options-grid{gap:9px}.option-card{padding:11px;min-height:72px;font-size:14px}.option-emoji{font-size:25px}
+  .question-scene{min-height:150px}.world-meta{font-size:11px}
+}

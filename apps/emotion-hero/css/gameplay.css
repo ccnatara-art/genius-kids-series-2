@@ -1,0 +1,19 @@
+.game-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.game-progress{flex:1;max-width:480px}
+.question-card{max-width:780px;margin:0 auto;padding:clamp(18px,4vw,34px)}
+.question-scene{min-height:180px;border-radius:22px;background:linear-gradient(135deg,#F0EAFF,#E9F7FF);display:grid;place-items:center;text-align:center;padding:22px;margin:20px 0}
+.scene-emoji{font-size:clamp(68px,12vw,100px);line-height:1.2;filter:drop-shadow(0 8px 4px #29334d14)}
+.scene-caption{font-weight:800;color:#59627A;margin:10px auto 0;max-width:520px}
+.question-title{text-align:center;font-size:clamp(22px,3vw,30px);line-height:1.25;margin:10px 0}
+.question-hint{text-align:center;color:var(--muted);font-size:14px;margin:0}
+.options-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:20px 0}
+.result-card{max-width:620px;margin:20px auto;padding:32px;text-align:center}
+.result-stars{font-size:42px;letter-spacing:6px;margin:8px 0 16px}
+.result-mascot{font-size:92px;line-height:1.2}
+.age-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:24px 0}
+.age-card{padding:20px 14px;border:2px solid var(--line);border-radius:20px;background:#fff;text-align:center;cursor:pointer}
+.age-card:hover{border-color:#B9A9FF;background:#FBFAFF}
+.age-card .age-emoji{font-size:42px}
+.age-card h3{margin:8px 0 4px}
+.age-card p{font-size:12px;color:var(--muted);margin:0}
+.settings-card{max-width:720px;padding:22px}
