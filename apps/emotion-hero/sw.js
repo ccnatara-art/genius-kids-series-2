@@ -1,4 +1,4 @@
-const CACHE_NAME = "emotion-hero-v1.0.0";
+const CACHE_NAME = "emotion-hero-v1.1.0";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -12,6 +12,7 @@ const CORE_ASSETS = [
   "./css/gameplay.css",
   "./css/animations.css",
   "./css/responsive.css",
+  "./css/visual-upgrade.css",
   "./js/app.js",
   "./js/router.js",
   "./js/data/levels.js",
@@ -32,7 +33,13 @@ const CORE_ASSETS = [
   "./js/utils/shuffle.js",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png",
-  "./assets/icons/icon.svg"
+  "./assets/icons/icon.svg",
+  "./assets/images/characters/hero-mascot.svg",
+  "./assets/images/worlds/world-1-emotion-garden.svg",
+  "./assets/images/worlds/world-2-feelings-detective.svg",
+  "./assets/images/worlds/world-3-body-signal-forest.svg",
+  "./assets/images/worlds/world-4-calm-island.svg",
+  "./assets/images/worlds/world-5-kindness-kingdom.svg"
 ];
 
 self.addEventListener("install", (event) => {

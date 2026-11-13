@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 470" role="img" aria-label="Karakter superhero anak Emotion Hero">
+<defs>
+ <linearGradient id="cape" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FF927E"/><stop offset="1" stop-color="#F05E69"/></linearGradient>
+ <linearGradient id="suit" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#927BFA"/><stop offset="1" stop-color="#5D49C7"/></linearGradient>
+ <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFD8B7"/><stop offset="1" stop-color="#F3B88F"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#3F3187" flood-opacity=".18"/></filter>
+</defs>
+<ellipse cx="214" cy="438" rx="122" ry="17" fill="#5443A5" opacity=".12"/>
+<g filter="url(#shadow)">
+ <path d="M133 193C76 218 58 298 83 391c8 29 36 29 48 7l53-108 94 106c19 22 47 10 47-19 0-80-28-155-83-190z" fill="url(#cape)" stroke="#493A9B" stroke-width="8" stroke-linejoin="round"/>
+ <path d="M158 193l-27 52 62 25 20-43 34 47 52-31-39-55z" fill="#F9B4A8" opacity=".55"/>
+ <path d="M140 288c-27 33-32 91-23 123 4 15 19 23 34 17l35-23 63 1 37 22c17 10 37-1 38-21 3-49-10-94-37-121z" fill="url(#suit)" stroke="#493A9B" stroke-width="8" stroke-linejoin="round"/>
+ <path d="M169 311c16 13 70 13 91 0l-8 71c-22 17-56 17-77 0z" fill="#A99BFF" opacity=".55"/>
+ <path d="M178 336l35-20 36 20-14 42h-43z" fill="#FFD166" stroke="#E5A936" stroke-width="5" stroke-linejoin="round"/>
+ <path d="M213 325l7 16 17 2-13 11 4 17-15-9-15 9 4-17-13-11 17-2z" fill="#FFF9E8"/>
+ <path d="M143 292c-30 10-50 31-57 62-4 19 11 31 28 22l41-26z" fill="url(#skin)" stroke="#493A9B" stroke-width="7"/>
+ <path d="M280 291c30 10 50 31 57 62 4 19-11 31-28 22l-41-26z" fill="url(#skin)" stroke="#493A9B" stroke-width="7"/>
+ <path d="M165 393l-7 38c-2 12 7 21 19 21h40v-25l-22-34zM256 393l7 38c2 12-7 21-19 21h-40v-25l22-34z" fill="#F3B88F" stroke="#493A9B" stroke-width="7"/>
+ <path d="M159 437h65c11 0 18 8 18 18v4h-91c-12 0-17-13-9-20 4-2 10-2 17-2zM266 437h-65c-11 0-18 8-18 18v4h91c12 0 17-13 9-20-4-2-10-2-17-2z" fill="#35406B" stroke="#493A9B" stroke-width="7"/>
+ <path d="M137 118c-3-45 29-78 77-78 46 0 80 29 82 75 3 68-23 126-82 126-55 0-73-55-77-123z" fill="url(#skin)" stroke="#493A9B" stroke-width="8"/>
+ <path d="M132 126c-17-52 6-100 54-112 50-13 105 8 117 53 6 22-2 44-13 57-5-29-21-43-42-50-26 24-65 33-116 28z" fill="#493A9B" stroke="#493A9B" stroke-width="8" stroke-linejoin="round"/>
+ <path d="M148 103c20 7 45 3 66-5 20-7 37-18 48-31 13 11 23 29 26 49-25-11-50-15-75-9-23 6-45 10-65-4z" fill="#6D5BD0"/>
+ <ellipse cx="183" cy="145" rx="8" ry="12" fill="#29334D"/><ellipse cx="246" cy="145" rx="8" ry="12" fill="#29334D"/>
+ <path d="M190 178c15 17 35 17 49 0" fill="none" stroke="#D66D68" stroke-width="7" stroke-linecap="round"/>
+ <circle cx="161" cy="169" r="10" fill="#F28E91" opacity=".45"/><circle cx="267" cy="169" r="10" fill="#F28E91" opacity=".45"/>
+ <path d="M158 215l-25 24 26 27 24-25zM271 215l25 24-26 27-24-25z" fill="#FFD166" stroke="#493A9B" stroke-width="6" stroke-linejoin="round"/>
+</g>
+<g fill="#FFD166"><path d="M63 110l8 17 18 3-13 12 3 18-16-9-16 9 3-18-13-12 18-3z"/><path d="M345 184l6 13 14 2-10 10 2 14-12-7-12 7 2-14-10-10 14-2z"/></g>
+<g fill="#72B9F5"><circle cx="76" cy="270" r="7"/><circle cx="350" cy="82" r="6"/><circle cx="321" cy="340" r="5"/></g>
+</svg>

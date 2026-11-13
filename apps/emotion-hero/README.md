@@ -1,21 +1,15 @@
 # Emotion Hero
 
-Aplikasi PWA edukasi anak untuk pengenalan emosi. Dibangun dengan HTML, CSS, dan Vanilla JavaScript.
+Aplikasi game edukasi sosial-emosional untuk anak usia 3–12 tahun.
 
-## Local development
-Jalankan dari folder ini melalui HTTP server, misalnya:
+## Menjalankan lokal
+Jalankan server lokal dari folder ini, misalnya `python -m http.server 8000`, lalu buka `http://localhost:8000`.
 
-```bash
-python -m http.server 8000
-```
-
-Lalu buka `http://localhost:8000`.
+## Visual assets
+Ilustrasi karakter dan lima dunia dibuat sebagai SVG lokal di `assets/images/`. Aset dapat digunakan offline setelah service worker berhasil melakukan precache.
 
 ## Deploy Vercel
-Pilih repository GitHub, lalu set Root Directory ke `apps/emotion-hero`. Framework Preset `Other`, Build Command kosong, Output Directory `.`.
+Root Directory: `apps/emotion-hero`; Framework: Other; Build Command kosong; Output Directory `.`.
 
 ## Catatan
-- Audio instruksi MP3 dapat ditambahkan di `assets/audio/narration/`.
-- Bila MP3 belum tersedia, browser menggunakan text-to-speech Bahasa Indonesia sebagai fallback.
-- Progres disimpan di LocalStorage perangkat.
-- Naikkan versi cache di `sw.js` saat mengubah aset inti.
+Progres disimpan secara lokal di browser/perangkat. Gunakan domain yang sama untuk melanjutkan progres yang sama.

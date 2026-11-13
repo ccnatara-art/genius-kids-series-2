@@ -1,0 +1,82 @@
+/* Emotion Hero Visual Upgrade — v1.1 */
+.dashboard-page{--ink:#29334D}
+.dashboard-greeting{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin:2px 0 20px}
+.dashboard-greeting h1{font-size:clamp(27px,4vw,38px);margin:5px 0 5px;color:var(--navy)}
+.dashboard-greeting h1 span{color:#F4B943;font-size:.8em}
+.dashboard-greeting p{margin:0;color:#7A8297}
+.eyebrow,.section-kicker{font-size:11px;letter-spacing:.13em;font-weight:1000;color:var(--purple)}
+.age-badge{flex-shrink:0;padding:10px 14px;background:#fff;border:1px solid #EEEAF8;border-radius:99px;color:#6552BE;font-size:12px;font-weight:900;box-shadow:0 5px 15px #47378b0a}
+.welcome-grid{grid-template-columns:minmax(0,1.45fr) minmax(230px,.65fr);gap:18px;margin-bottom:36px}
+.hero-banner{min-height:300px;padding:30px 32px;border-radius:30px;background:radial-gradient(circle at 80% 10%,#A99AFB 0,#8C79EC 23%,transparent 46%),linear-gradient(120deg,#6751D0 0%,#7964DF 56%,#8A79E9 100%);box-shadow:0 18px 36px #6550c32b}
+.hero-copy{max-width:58%;z-index:2}
+.hero-kicker{display:inline-flex;align-items:center;gap:7px;padding:8px 11px;border-radius:99px;background:#FFFFFF22;color:#fff;font-size:10px;font-weight:1000;letter-spacing:.09em}
+.sparkle-dot{color:#FFD166;font-size:15px}
+.hero-copy h2{font-size:clamp(31px,4vw,47px);line-height:1.02;letter-spacing:-.055em;margin:17px 0 12px;color:#fff}
+.hero-copy h2 em,.age-welcome h1 em,.result-card h1 em{font-style:normal;color:#FFE08B}
+.hero-copy p{font-size:14px;line-height:1.55;color:#F0EDFF;max-width:365px;margin-bottom:19px}
+.hero-cta{background:#FF8068;box-shadow:0 5px 0 #DB5E50;padding:13px 18px}
+.hero-trust{font-size:10px;color:#E7E1FF;margin-top:17px;font-weight:700}.hero-trust span{color:#FFC5B8;margin-right:5px}
+.hero-art-shell{position:absolute;right:12px;bottom:0;width:43%;height:100%;display:flex;align-items:flex-end;justify-content:center;z-index:1}
+.hero-art-glow{position:absolute;width:210px;height:210px;border-radius:50%;background:#FFFFFF22;bottom:28px;right:10%;filter:blur(2px)}
+.hero-mascot-img{position:relative;width:auto;height:96%;max-width:100%;object-fit:contain;object-position:bottom;filter:drop-shadow(0 13px 10px #30217a35)}
+.hero-spark{position:absolute;color:#FFE08B;font-size:26px;z-index:2}.hero-spark-one{right:37%;top:15%}.hero-spark-two{right:8%;top:39%;font-size:34px}
+.stats-card{padding:24px 22px;border-radius:26px;justify-content:flex-start;gap:0;background:linear-gradient(160deg,#fff 0%,#FBF9FF 100%)}
+.stats-topline{display:flex;align-items:center;gap:9px}.stats-icon{width:38px;height:38px;display:grid;place-items:center;border-radius:13px;background:#FFF2CB;font-size:19px}.stats-label{font-size:10px;letter-spacing:.11em;color:#9298A9;font-weight:1000}
+.stats-number{font-size:49px;line-height:1.1;margin:17px 0 2px;color:#5E4AC5;letter-spacing:-.06em}.stats-number span{font-size:24px;color:#F5BE42;vertical-align:8px}
+.stats-caption{font-size:12px;color:#858CA0;margin:0;line-height:1.45}
+.stats-divider{height:1px;background:#EEEAF5;margin:20px 0 16px}
+.stats-row{font-size:11px;color:#5D657B}.stats-row strong:last-child{font-size:15px;color:#5F4BC6}.stats-row small{font-size:10px;color:#9CA2B2}
+.stats-footnote{font-size:10px;color:#9298A9;margin:11px 0 0}
+.map-section{margin-top:0}
+.map-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:15px;margin-bottom:18px}
+.map-heading h2{font-size:clamp(23px,3vw,29px);margin:7px 0 5px;letter-spacing:-.04em}.map-heading p{margin:0;color:#858CA0;font-size:13px}
+.map-counter{display:flex;flex-direction:column;text-align:right;gap:2px;color:#9399AA;font-size:10px;font-weight:800}.map-counter strong{font-size:20px;color:var(--purple)}
+.world-list{gap:17px}
+.world-card{display:grid;grid-template-columns:minmax(175px, .72fr) minmax(0,1.28fr);gap:0;padding:0;border-radius:24px;overflow:hidden;border:1px solid #EBE8F5;box-shadow:0 7px 22px #34315c0a;background:#fff;transition:transform .2s,box-shadow .2s}
+.world-card.is-unlocked:hover{transform:translateY(-3px);box-shadow:0 13px 28px #34315c12}
+.world-card.is-locked .world-art{filter:grayscale(.55);opacity:.65}.world-card.is-locked .world-content{background:#FCFBFE}
+.world-art-wrap{position:relative;min-height:205px;overflow:hidden;background:#F3F0FF}
+.world-art{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .35s}
+.world-card:hover .world-art{transform:scale(1.035)}
+.world-number{position:absolute;left:14px;top:14px;padding:7px 10px;border-radius:99px;background:#FFFFFFE8;color:#5F4BC6;font-size:9px;letter-spacing:.1em;font-weight:1000;box-shadow:0 4px 12px #2b25500c}
+.world-lock{position:absolute;right:13px;top:13px;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#FFFFFFE8;font-size:15px}
+.world-content{padding:19px 20px 17px;min-width:0}
+.world-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.world-heading h3{font-size:18px;margin:0 0 5px;color:#303852}.world-heading p{font-size:12px;margin:0;color:#8A91A4}
+.world-progress{text-align:right;display:flex;flex-direction:column;gap:0;flex-shrink:0}.world-progress strong{font-size:16px;color:#5E4BC2}.world-progress span{font-size:9px;color:#9CA2B2}
+.world-progress-track{height:6px;background:#F0EDF7;border-radius:99px;margin:14px 0 13px;overflow:hidden}.world-progress-track span{height:100%;display:block;background:linear-gradient(90deg,#8B77E9,#B1A3FF);border-radius:99px}
+.mission-chips{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:0}
+.mission-chip{min-width:0;min-height:42px;border:1px solid #ECEAF3;background:#FAF9FC;border-radius:12px;padding:7px 8px;display:flex;align-items:center;gap:6px;color:#9399A9;text-align:left;font-size:10px;font-weight:900;overflow:hidden}
+.mission-chip.unlocked{background:#F5F2FF;border-color:#DCD4FF;color:#5D4BC0}.mission-chip.completed{background:#EFFAF5;border-color:#CDEFE0;color:#20845D}
+.mission-chip-icon{font-size:10px;flex-shrink:0}.mission-chip-label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}.mission-chip-stars{font-size:9px;color:#E9B33B;white-space:nowrap}
+.dashboard-note{margin:22px 0 0;padding:15px 18px;display:flex;align-items:center;gap:12px;border-radius:17px;background:#F1EDFF;color:#6555B5}.dashboard-note span{font-size:20px}.dashboard-note p{font-size:12px;margin:0;line-height:1.5;font-weight:700}
+/* Age selection */
+.age-page{max-width:930px;margin:0 auto}
+.age-welcome{position:relative;min-height:275px;overflow:hidden;border:0;border-radius:30px;padding:34px 36px;background:radial-gradient(circle at 84% 15%,#FFE3A1 0,#FFE3A1 16%,transparent 17%),linear-gradient(115deg,#7057D9,#8977E9);color:#fff;display:flex;align-items:center;box-shadow:0 17px 35px #6550c329}
+.age-welcome-copy{position:relative;z-index:2;max-width:58%}.age-welcome h1{font-size:clamp(31px,4vw,43px);line-height:1.04;margin:17px 0 12px;letter-spacing:-.05em}.age-welcome-copy>p{font-size:14px;line-height:1.6;color:#F0EDFF;max-width:410px;margin:0}
+.age-welcome-art{position:absolute;right:4%;bottom:-8px;height:96%;width:37%;display:flex;align-items:flex-end;justify-content:center}.age-welcome-art img{height:100%;max-width:100%;object-fit:contain;filter:drop-shadow(0 10px 10px #33217b35)}
+.age-welcome-badges{display:flex;gap:7px;flex-wrap:wrap;margin-top:18px}.age-welcome-badges span{background:#FFFFFF22;border:1px solid #FFFFFF25;border-radius:99px;padding:6px 10px;font-size:10px;font-weight:900}
+.age-deco{position:absolute;color:#FFE08B}.age-deco-one{right:37%;top:18%;font-size:27px}.age-deco-two{right:8%;top:28%;font-size:34px}
+.age-choice-heading{text-align:center;margin:34px 0 17px}.age-choice-heading h2{font-size:24px;margin:7px 0 5px}.age-choice-heading p{font-size:12px;color:#8A91A4;margin:0}
+.age-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:0}
+.age-card{position:relative;min-height:205px;padding:20px 17px 17px;display:flex;flex-direction:column;align-items:flex-start;text-align:left;border:1px solid #EAE7F3;border-radius:22px;background:#fff;box-shadow:0 6px 20px #302b5708;transition:transform .2s,border-color .2s,box-shadow .2s}
+.age-card:hover{transform:translateY(-4px);border-color:#B9ACF4;box-shadow:0 14px 26px #5542a51a}
+.age-card-number{position:absolute;right:15px;top:13px;color:#D0CCDD;font-size:10px;font-weight:1000;letter-spacing:.1em}
+.age-emoji{width:57px;height:57px;display:grid;place-items:center;border-radius:18px;background:#FFF2CE;font-size:30px;margin-bottom:13px}
+.age-card-junior .age-emoji{background:#E8F8EF}.age-card-explorer .age-emoji{background:#EDE9FF}.age-card-champion .age-emoji{background:#E4F3FF}
+.age-card-copy{display:flex;flex-direction:column;gap:4px}.age-card-copy strong{font-size:18px;color:#303852}.age-card-copy b{font-size:11px;color:#7057D9}.age-card-copy small{font-size:10px;line-height:1.5;color:#8A91A4;margin-top:4px}
+.age-card-arrow{position:absolute;right:16px;bottom:17px;color:#7057D9;font-size:20px;font-weight:900}
+.age-footer-note{text-align:center;color:#8A91A4;font-size:11px;margin:20px 0 0}
+/* Result */
+.result-card{position:relative;max-width:620px;padding:28px 34px 32px;text-align:center;border-radius:30px;overflow:hidden;background:radial-gradient(circle at 50% 0,#F1EDFF 0,transparent 44%),#fff}
+.result-mascot-art{width:170px;height:170px;margin:0 auto 3px;display:flex;justify-content:center;align-items:flex-end}.result-mascot-art img{height:100%;max-width:100%;object-fit:contain;filter:drop-shadow(0 8px 8px #47378b20)}
+.result-card h1{font-size:34px;line-height:1.03;margin:12px 0 8px;color:#303852}.result-card h1 em{color:#7057D9}.result-pill{margin-top:0}.result-stars{font-size:36px;letter-spacing:5px;color:#F3BD43;margin:16px 0 10px}.result-stars span{color:#D9D5E5}
+.result-score{display:inline-flex;align-items:baseline;gap:6px;padding:9px 15px;border-radius:99px;background:#F3F0FF;color:#6652C4}.result-score strong{font-size:18px}.result-score span{font-size:10px;font-weight:800}
+.result-message{max-width:430px;margin:15px auto 0;font-size:12px;color:#858CA0;line-height:1.6}.result-actions{display:grid;gap:9px;margin-top:23px}
+.result-confetti span{position:absolute;color:#F2C44E;font-size:25px}.result-confetti span:nth-child(1){left:12%;top:15%}.result-confetti span:nth-child(2){right:12%;top:20%;color:#FF9585}.result-confetti span:nth-child(3){left:19%;top:40%;color:#8B78E9}.result-confetti span:nth-child(4){right:20%;top:43%;color:#70CFA7}
+@media(max-width:760px){
+ .dashboard-greeting{align-items:flex-start;flex-direction:column;gap:10px}.welcome-grid{grid-template-columns:1fr}.hero-banner{min-height:285px}.hero-copy{max-width:60%}.hero-art-shell{width:43%;right:0}.stats-card{padding:19px 20px}.world-card{grid-template-columns:1fr}.world-art-wrap{min-height:170px;position:relative}.world-content{padding:16px}.age-welcome{min-height:250px;padding:26px 24px}.age-welcome-copy{max-width:61%}.age-welcome-art{width:39%;right:0}.age-grid{grid-template-columns:1fr}.age-card{min-height:125px;display:grid;grid-template-columns:58px 1fr 20px;align-items:center;gap:13px;padding:15px}.age-emoji{margin:0}.age-card-arrow{position:static;justify-self:end}.age-card-number{right:13px;top:8px;font-size:8px}.age-card-copy small{max-width:350px}
+}
+@media(max-width:520px){
+ .dashboard-greeting h1{font-size:29px}.age-badge{font-size:10px}.hero-banner{min-height:270px;padding:23px 20px}.hero-copy{max-width:68%}.hero-copy h2{font-size:33px}.hero-copy p{font-size:11px;max-width:220px}.hero-cta{font-size:11px;padding:11px 13px;min-height:42px}.hero-trust{font-size:9px;max-width:190px}.hero-art-shell{width:40%;right:-4px}.hero-mascot-img{height:85%}.hero-spark-one{right:38%;top:13%}.stats-number{font-size:42px}.map-heading{align-items:flex-start}.map-counter{padding-top:5px}.world-art-wrap{min-height:145px}.world-content{padding:14px}.world-heading h3{font-size:16px}.mission-chips{grid-template-columns:1fr;gap:6px}.mission-chip{min-height:38px}.age-welcome{min-height:270px;padding:23px 19px}.age-welcome-copy{max-width:67%}.age-welcome h1{font-size:31px}.age-welcome-copy>p{font-size:11px}.age-welcome-art{width:43%;right:-6px;height:88%}.age-welcome-badges{gap:5px}.age-welcome-badges span{font-size:8px;padding:5px 7px}.age-choice-heading h2{font-size:20px}.age-card{min-height:110px}.result-card{padding:24px 19px}.result-mascot-art{height:145px;width:145px}.result-card h1{font-size:30px}
+}
