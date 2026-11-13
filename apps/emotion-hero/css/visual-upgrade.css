@@ -80,3 +80,78 @@
 @media(max-width:520px){
  .dashboard-greeting h1{font-size:29px}.age-badge{font-size:10px}.hero-banner{min-height:270px;padding:23px 20px}.hero-copy{max-width:68%}.hero-copy h2{font-size:33px}.hero-copy p{font-size:11px;max-width:220px}.hero-cta{font-size:11px;padding:11px 13px;min-height:42px}.hero-trust{font-size:9px;max-width:190px}.hero-art-shell{width:40%;right:-4px}.hero-mascot-img{height:85%}.hero-spark-one{right:38%;top:13%}.stats-number{font-size:42px}.map-heading{align-items:flex-start}.map-counter{padding-top:5px}.world-art-wrap{min-height:145px}.world-content{padding:14px}.world-heading h3{font-size:16px}.mission-chips{grid-template-columns:1fr;gap:6px}.mission-chip{min-height:38px}.age-welcome{min-height:270px;padding:23px 19px}.age-welcome-copy{max-width:67%}.age-welcome h1{font-size:31px}.age-welcome-copy>p{font-size:11px}.age-welcome-art{width:43%;right:-6px;height:88%}.age-welcome-badges{gap:5px}.age-welcome-badges span{font-size:8px;padding:5px 7px}.age-choice-heading h2{font-size:20px}.age-card{min-height:110px}.result-card{padding:24px 19px}.result-mascot-art{height:145px;width:145px}.result-card h1{font-size:30px}
 }
+
+/* Gameplay Upgrade v1.2 — distinct activity patterns for each world */
+.gameplay-upgrade-page{max-width:900px;margin:0 auto}
+.gameplay-upgrade-page .game-top{margin-bottom:13px}
+.game-progress-labels{display:flex;justify-content:space-between;gap:10px;font-size:11px;font-weight:1000;color:#515B75;margin-bottom:7px}
+.gameplay-heading{text-align:center;margin:5px 0 15px}
+.gameplay-heading .pill{background:#EEE9FF;color:#6250C4}
+.gameplay-heading p{font-size:11px;color:#8A91A4;margin:7px 0 0;font-weight:800}
+.gameplay-card{max-width:790px;margin:0 auto;padding:clamp(17px,3.5vw,28px);border-radius:27px}
+.activity-stage{position:relative;overflow:hidden;min-height:190px;border-radius:22px;padding:17px 20px 18px;margin-bottom:19px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.stage-topline{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:9px;letter-spacing:.11em;font-weight:1000;color:#6D5BC4}
+.stage-stamp{padding:6px 9px;border-radius:99px;background:#FFFFFFB8;color:#8B86A0;font-size:8px}
+.stage-main-emoji{font-size:clamp(60px,10vw,86px);line-height:1.12;margin:12px 0 6px;filter:drop-shadow(0 7px 4px #29334d12)}
+.activity-stage>p{max-width:570px;margin:0 auto;color:#68728B;font-size:12px;line-height:1.55;font-weight:700}
+.emotion-stage{background:radial-gradient(circle at 50% 45%,#FFFFFF 0 18%,transparent 19%),linear-gradient(135deg,#F3EEFF,#FFF3E9)}
+.detective-stage{background:linear-gradient(135deg,#FFF1D9,#FFF9EF 55%,#EAF4FF)}
+.detective-stage .stage-topline{color:#A46C24}
+.detective-note,.calm-reminder,.kindness-reminder{margin-top:13px;padding:10px 13px;border-radius:13px;background:#FFFFFFB8;color:#69728A;font-size:10px;line-height:1.5;font-weight:800;max-width:590px}
+.body-stage{background:linear-gradient(135deg,#EAF8F1,#F2F9FF)}
+.body-stage .stage-topline{color:#278666}
+.body-map-row{width:min(100%,540px);display:flex;align-items:center;justify-content:center;gap:22px;margin:9px auto 6px}
+.body-character{width:110px;height:132px;display:grid;place-items:center;border-radius:25px;background:#FFFFFFA8;font-size:76px;flex-shrink:0}
+.body-cues{display:grid;gap:7px;text-align:left;flex:1;max-width:300px}
+.body-cue{display:flex;align-items:center;gap:10px;padding:8px 10px;border:1px solid #FFFFFF;background:#FFFFFFB8;border-radius:13px}
+.body-cue>span{font-size:22px}
+.body-cue strong,.body-cue small{display:block}
+.body-cue strong{font-size:10px;color:#3F6C63}
+.body-cue small{font-size:9px;color:#82938E;margin-top:2px}
+.body-caption{font-size:10px!important;margin-top:5px!important}
+.calm-stage{background:linear-gradient(135deg,#E6F7F2,#EAF4FF 60%,#F5F0FF)}
+.calm-stage .stage-topline{color:#338E82}
+.kindness-stage{background:linear-gradient(135deg,#FFF0ED,#FFF6DF 60%,#F2EEFF)}
+.kindness-stage .stage-topline{color:#D16F69}
+.question-title{margin:15px auto 7px;max-width:680px}
+.question-hint{font-size:11px}
+.gameplay-options{margin-top:17px}
+.gameplay-option{position:relative;min-height:82px;border-radius:17px}
+.gameplay-option .option-label{line-height:1.35}
+.gameplay-option .drag-hint{margin-left:auto;color:#A69BCB;font-size:17px;font-weight:1000}
+.mode-emotion-match .gameplay-option{border-style:solid;background:linear-gradient(145deg,#fff,#FCFAFF)}
+.mode-emotion-match .gameplay-option .option-emoji{width:43px;height:43px;display:grid;place-items:center;border-radius:14px;background:#F4F0FF}
+.emotion-drop-zone{min-height:61px;margin:13px auto 8px;border:2px dashed #BDB1ED;border-radius:16px;background:#F8F6FF;display:flex;align-items:center;justify-content:center;gap:10px;padding:11px 15px;color:#6C5BC1;font-size:11px;font-weight:1000;text-align:center;transition:background .15s,border-color .15s}
+.emotion-drop-zone:focus-visible{outline:3px solid #72B9F5;outline-offset:3px}
+.emotion-drop-zone.answered{border-style:solid;background:#F0FBF5;border-color:#9BDDBD;color:#277C5C}
+.drop-zone-icon{font-size:20px}
+.mode-story-detective .gameplay-option{background:#FFFEFA;border-color:#F1E7D4}
+.mode-body-signals .gameplay-option{background:#FBFFFD;border-color:#DDEFE7}
+.mode-calm-choice .gameplay-option{background:#FCFEFF;border-color:#DFEAF5}
+.mode-kindness-story .gameplay-option{background:#FFFCFA;border-color:#F5E3E0}
+.gameplay-next{min-height:52px}
+.gameplay-encouragement{text-align:center;color:#9A94B0;font-size:10px;font-weight:800;margin:14px 0 0}
+
+/* Guided breathing activity — self-paced, no forced breath holding or timer. */
+.breathing-page{max-width:650px;margin:0 auto}
+.breathing-card{padding:clamp(23px,5vw,42px);text-align:center;border-radius:30px;background:radial-gradient(circle at 50% 0,#E8F8F1 0,transparent 46%),#fff}
+.breath-illustration{font-size:76px;margin:20px 0 8px}
+.breathing-card h1{font-size:clamp(25px,4vw,34px);color:#3C6F68;margin:12px 0 8px}
+.breathing-card>p{max-width:450px;margin:0 auto;color:#7C8992;font-size:13px;line-height:1.65}
+.breathing-safety{max-width:470px;margin:19px auto 0;padding:12px 14px;border-radius:14px;background:#F0F8F4;color:#648078;font-size:10px;line-height:1.6;font-weight:800}
+.breath-orb{width:178px;height:178px;margin:24px auto 20px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 28%,#FFFFFF 0 10%,#D9F4E9 11% 46%,#BCE8D8 47% 100%);box-shadow:0 12px 28px #69BFA02B,inset 0 0 0 9px #FFFFFF8A;transition:transform 1.2s ease,box-shadow 1.2s ease}
+.breath-orb span{font-size:57px;filter:drop-shadow(0 5px 3px #347f6420)}
+.breath-orb.inhale{transform:scale(1.08);box-shadow:0 15px 34px #69BFA044,inset 0 0 0 9px #FFFFFF9A}
+.breath-orb.exhale{transform:scale(.88);box-shadow:0 7px 18px #69BFA020,inset 0 0 0 9px #FFFFFF80}
+.breathing-dots{display:flex;justify-content:center;gap:8px;margin:18px 0 0}
+.breathing-dots span{width:9px;height:9px;border-radius:50%;background:#E1E8E4}
+.breathing-dots span.active{background:#62B99A;box-shadow:0 0 0 4px #E5F6EE}
+.breathing-actions{display:grid;gap:9px;max-width:360px;margin:20px auto 0}
+@media(max-width:560px){
+ .gameplay-card{padding:14px;border-radius:22px}
+ .activity-stage{min-height:170px;padding:14px}
+ .body-map-row{gap:10px}.body-character{width:80px;height:112px;font-size:60px}.body-cue{padding:7px}.body-cue>span{font-size:19px}
+ .gameplay-option{min-height:72px;padding:10px;font-size:12px}
+ .emotion-drop-zone{font-size:10px}
+ .breath-orb{width:150px;height:150px}.breath-orb span{font-size:48px}
+}
